@@ -1,0 +1,10 @@
+variable called: rental_prices is a list and contains numbers,
+make a tuple called: rental_prices_tuple,
+that contains values from list
+
+
+
+rental_prices = (31,24.4,12,15,19,38)
+
+rental_prices_tuple = (31, 24.4, 12, 15, 19, 38)
+print(rental_prices_tuple)
