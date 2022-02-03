@@ -1,0 +1,13 @@
+Task 1 :
+
+variable called: rental_prices is a tuple and contains numbers,
+make a list called: rental_prices_list,
+that contains values from tuple
+
+
+answer:
+
+rental_prices = (1,2,3,4)
+
+rental_prices_list = [31, 24.4, 12, 15, 19, 38]
+(rental_prices_list)
