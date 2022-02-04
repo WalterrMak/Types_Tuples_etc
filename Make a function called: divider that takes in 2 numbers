@@ -1,0 +1,15 @@
+Make a function called: divider that takes in 2 numbers
+function returns a tuple, that contains:
+results of the division, result of the floor division, result of the modulo, of those 2 numbers.
+example: number1 = 5 number = 2
+returns = (2.5, 2, 1)
+
+
+
+Answer:
+
+def divider(a,b):
+    y=a/b
+    u=a//b
+    x=a%b
+    return y,u,x
