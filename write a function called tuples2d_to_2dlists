@@ -1,0 +1,8 @@
+write a function called tuples2d_to_2dlists that converts tuple of tuples to list of lists.
+function takes tuple of tuples in as argument
+function returns list of list.
+
+
+def tuples2d_to_2dlists(mylist):
+    lists = [list(x)for x in mylist]
+    return lists
