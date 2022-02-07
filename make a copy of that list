@@ -1,0 +1,10 @@
+There is array called next_weeks_lotterys_winnig_numbers
+make a copy of that list, using copy module, assign the copy to
+variable called: wrong_number_for_next_weeks_lottery,
+and change first element of the new list to 3
+
+
+import copy
+next_weeks_lotterys_winnig_numbers = [2,5,11,15,19,25,30]
+wrong_number_for_next_weeks_lottery = copy.copy (next_weeks_lotterys_winnig_numbers)
+wrong_number_for_next_weeks_lottery [0] = 3
